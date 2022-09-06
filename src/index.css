@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  padding: 1rem 2rem;
+}
+.container{
+  /*max-width: 1400px ;*/
+  /*margin: auto;*/
+}
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  padding: 0 10px;
+  font-weight: 600;
+  padding: 0 .7rem;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+.section{
+  /*background:  url(../public/tesla images/model-3.jpg) no-repeat scroll center / cover;*/
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.section .carName{
+  padding-top: 6.6rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.section .carName p{
+  font-size: 1rem;
+}
+.section .cta{
+  padding-bottom: .6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section .cta .buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  /*padding-bottom: 60px;*/
+
+}
+.section .cta .buttons a{
+  border: solid 2px;
+  border-radius: 2rem;
+  padding: 10px 70px;
+  margin: 0 10px;
+
+}
+.section .cta .buttons a:nth-child(1){
+  background-color: rgba(23, 26, 32, 0.8);
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+}
+.section .cta .buttons a:nth-child(2){
+  color: rgba(23, 26, 32, 0.8);
+  background-color: #fff;
+  border: none;
+  text-transform: uppercase;
+}
+.section .cta img{
+  /*width: 60px;*/
+  height: 40px;
+  margin-bottom: 20px;
+
+
+}
+
+.dropdown {
+    /*flex-direction: column;
+    position: fixed;
+    background-color: #fff;
+    padding: 75px 40px;
+    top: 0;
+    /*right: -20%;*/
+    /*width: 20%;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: flex-start;*/
+    transition: right .3s ease-in-out;
+}
+.dropdown .cross{
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.dropdown li{
+  padding: 0 10px;
+  font-weight: 600;
+  padding: .7rem;
+}
+
