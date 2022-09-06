@@ -18,9 +18,8 @@ function Header() {
     	justifyContent: "flex-start",
     	alignItems: "flex-start",
 		right: `${ Show ? "0%" : "-20%" }`
-		// backgroundColor : `${ Show ? "red" : "blue"}`
+		
 	}
-	// console.log(Show)
 
 	return (
 		<Fade down>
